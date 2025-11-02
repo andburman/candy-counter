@@ -1,0 +1,23 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/_app": [
+      "static/chunks/897c0_next_dist_compiled_e5f6ad3c._.js",
+      "static/chunks/897c0_next_dist_shared_lib_e6c2abc5._.js",
+      "static/chunks/897c0_next_dist_client_5baaf877._.js",
+      "static/chunks/897c0_next_dist_fcd106e2._.js",
+      "static/chunks/897c0_next_app_5dd8aec7.js",
+      "static/chunks/[next]_entry_page-loader_ts_53630d2c._.js",
+      "static/chunks/897c0_react-dom_3113b6c0._.js",
+      "static/chunks/897c0_a336e244._.js",
+      "static/chunks/[root-of-the-server]__bf3b0e57._.js",
+      "static/chunks/repos_candy-counter_candy-counter_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-repos_candy-counter_candy-counter_pages__app_4e4952b4._.js"
+    ]
+  },
+  "ampFirstPages": []
+}

@@ -1,0 +1,95 @@
+{
+  "node": {
+    "0007f9ac076172292b5b0962ed8efcaef88c74b9bc": {
+      "workers": {
+        "app/page": {
+          "moduleId": 18445,
+          "async": false,
+          "exportedName": "getAvailableYearsAction",
+          "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "exportedName": "getAvailableYearsAction",
+      "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+    },
+    "404fd9e4d694c59fc052e268a237e44628c881b5c9": {
+      "workers": {
+        "app/page": {
+          "moduleId": 18445,
+          "async": false,
+          "exportedName": "deleteCandy",
+          "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "exportedName": "deleteCandy",
+      "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+    },
+    "407f699d6bf8ccb956aec00d8422a60c05cda5844e": {
+      "workers": {
+        "app/page": {
+          "moduleId": 18445,
+          "async": false,
+          "exportedName": "getAllCandiesAction",
+          "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "exportedName": "getAllCandiesAction",
+      "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+    },
+    "40bf95d303bd2df21ccbf493fbdf015e4bb359ec3e": {
+      "workers": {
+        "app/page": {
+          "moduleId": 18445,
+          "async": false,
+          "exportedName": "getCandiesByYearAction",
+          "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "exportedName": "getCandiesByYearAction",
+      "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+    },
+    "6008e3e4cc1eccfbdb568eceb8f593ef3aca34fd7c": {
+      "workers": {
+        "app/page": {
+          "moduleId": 18445,
+          "async": false,
+          "exportedName": "addCandy",
+          "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "exportedName": "addCandy",
+      "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+    },
+    "708f3f96c4bc964c8d4d067b4c053c4de2f5064775": {
+      "workers": {
+        "app/page": {
+          "moduleId": 18445,
+          "async": false,
+          "exportedName": "updateCandy",
+          "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "exportedName": "updateCandy",
+      "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+    }
+  },
+  "edge": {}
+}

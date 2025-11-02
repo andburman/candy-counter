@@ -1,0 +1,5 @@
+[00:00:02.340] Server  LOG      ✓ Ready in 1567ms
+[00:00:11.932] Server  LOG      ○ Compiling / ...
+[00:00:13.766] Server  WARN    Error: Route "/" used `searchParams.year`. `searchParams` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:14.371] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:32.823] Server  WARN    Error: Route "/" used `searchParams.year`. `searchParams` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis

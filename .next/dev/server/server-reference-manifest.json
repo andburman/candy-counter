@@ -1,0 +1,186 @@
+{
+  "node": {
+    "000bb67346f37334ba6a930fbf20b594d4dd6b47d1": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/repos/candy-counter/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/repos/candy-counter/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getAvailableYearsAction",
+          "filename": "repos/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "filename": "repos/candy-counter/app/actions.ts",
+      "exportedName": "getAvailableYearsAction"
+    },
+    "401b44d7523e0d96e6d6f19ff561ab243ffcefc0b8": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/repos/candy-counter/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/repos/candy-counter/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getAllCandiesAction",
+          "filename": "repos/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "filename": "repos/candy-counter/app/actions.ts",
+      "exportedName": "getAllCandiesAction"
+    },
+    "403faac8fe87815cac8aac4fe62b0167e6296f3dd2": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/repos/candy-counter/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/repos/candy-counter/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getAllCatalogItemsAction",
+          "filename": "repos/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "filename": "repos/candy-counter/app/actions.ts",
+      "exportedName": "getAllCatalogItemsAction"
+    },
+    "406e001ecd1810716d2e223d1973d1673021d94588": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/repos/candy-counter/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/repos/candy-counter/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteCandy",
+          "filename": "repos/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "filename": "repos/candy-counter/app/actions.ts",
+      "exportedName": "deleteCandy"
+    },
+    "40899e633c966d7973dabfe3646341c07a17ff5121": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/repos/candy-counter/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/repos/candy-counter/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deactivateCatalogItemAction",
+          "filename": "repos/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "filename": "repos/candy-counter/app/actions.ts",
+      "exportedName": "deactivateCatalogItemAction"
+    },
+    "409e283925548a7803744c325bccf11756ed535cde": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/repos/candy-counter/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/repos/candy-counter/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getCandiesByYearAction",
+          "filename": "repos/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "filename": "repos/candy-counter/app/actions.ts",
+      "exportedName": "getCandiesByYearAction"
+    },
+    "40b70c5e2b7501ffc2a5a9cc3a85c13da2ed729921": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/repos/candy-counter/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/repos/candy-counter/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "activateCatalogItemAction",
+          "filename": "repos/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "filename": "repos/candy-counter/app/actions.ts",
+      "exportedName": "activateCatalogItemAction"
+    },
+    "60ad9fa2ffbd7a98c25e62fbefc9661a613e73eafc": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/repos/candy-counter/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/repos/candy-counter/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "addCandy",
+          "filename": "repos/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "filename": "repos/candy-counter/app/actions.ts",
+      "exportedName": "addCandy"
+    },
+    "60ca8aee753aa9973c0a793b9f1a64bd064d0288b3": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/repos/candy-counter/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/repos/candy-counter/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "mergeCatalogItemsAction",
+          "filename": "repos/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "filename": "repos/candy-counter/app/actions.ts",
+      "exportedName": "mergeCatalogItemsAction"
+    },
+    "60f6d3ac303a738860efc2ba972e27596bf13ed289": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/repos/candy-counter/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/repos/candy-counter/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createCatalogItemAction",
+          "filename": "repos/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "filename": "repos/candy-counter/app/actions.ts",
+      "exportedName": "createCatalogItemAction"
+    },
+    "706363b88d1e274ddf970615ca14fba6293a8800fa": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/repos/candy-counter/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/repos/candy-counter/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCandy",
+          "filename": "repos/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "filename": "repos/candy-counter/app/actions.ts",
+      "exportedName": "updateCandy"
+    },
+    "70f2bf186e10bcc26906ecceb45fc7cb77cf4974e4": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/repos/candy-counter/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/repos/candy-counter/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCatalogItemAction",
+          "filename": "repos/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "filename": "repos/candy-counter/app/actions.ts",
+      "exportedName": "updateCatalogItemAction"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "PwF9Pg6Ipgv9Wv8+7ReS/CJ81l+3fZt0E4i9qQHwNi0="
+}

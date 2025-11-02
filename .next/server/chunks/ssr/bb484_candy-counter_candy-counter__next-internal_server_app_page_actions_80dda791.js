@@ -1,0 +1,3 @@
+module.exports=[18445,a=>{"use strict";var b=a.i(54266);a.s([],2894),a.i(2894),a.s(["0007f9ac076172292b5b0962ed8efcaef88c74b9bc",()=>b.getAvailableYearsAction,"404fd9e4d694c59fc052e268a237e44628c881b5c9",()=>b.deleteCandy,"407f699d6bf8ccb956aec00d8422a60c05cda5844e",()=>b.getAllCandiesAction,"40bf95d303bd2df21ccbf493fbdf015e4bb359ec3e",()=>b.getCandiesByYearAction,"6008e3e4cc1eccfbdb568eceb8f593ef3aca34fd7c",()=>b.addCandy,"708f3f96c4bc964c8d4d067b4c053c4de2f5064775",()=>b.updateCandy],18445)}];
+
+//# sourceMappingURL=bb484_candy-counter_candy-counter__next-internal_server_app_page_actions_80dda791.js.map

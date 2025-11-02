@@ -1,0 +1,95 @@
+{
+  "node": {
+    "4089442ab9ca30809a71e839ff8ba121c4d9e76934": {
+      "workers": {
+        "app/catalog/page": {
+          "moduleId": "[project]/repos/candy-counter/candy-counter/.next-internal/server/app/catalog/page/actions.js { ACTIONS_MODULE0 => \"[project]/repos/candy-counter/candy-counter/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getAllCatalogItemsAction",
+          "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/catalog/page": "action-browser"
+      },
+      "exportedName": "getAllCatalogItemsAction",
+      "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+    },
+    "603b773387d958e80d02013679d84da904053d58d1": {
+      "workers": {
+        "app/catalog/page": {
+          "moduleId": "[project]/repos/candy-counter/candy-counter/.next-internal/server/app/catalog/page/actions.js { ACTIONS_MODULE0 => \"[project]/repos/candy-counter/candy-counter/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createCatalogItemAction",
+          "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/catalog/page": "action-browser"
+      },
+      "exportedName": "createCatalogItemAction",
+      "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+    },
+    "70bf5b2b226cab423a74985f4fb03729a7d5e74b3d": {
+      "workers": {
+        "app/catalog/page": {
+          "moduleId": "[project]/repos/candy-counter/candy-counter/.next-internal/server/app/catalog/page/actions.js { ACTIONS_MODULE0 => \"[project]/repos/candy-counter/candy-counter/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCatalogItemAction",
+          "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/catalog/page": "action-browser"
+      },
+      "exportedName": "updateCatalogItemAction",
+      "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+    },
+    "40cc73549640befa7f25c4d2d6e1f025e75a359b00": {
+      "workers": {
+        "app/catalog/page": {
+          "moduleId": "[project]/repos/candy-counter/candy-counter/.next-internal/server/app/catalog/page/actions.js { ACTIONS_MODULE0 => \"[project]/repos/candy-counter/candy-counter/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deactivateCatalogItemAction",
+          "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/catalog/page": "action-browser"
+      },
+      "exportedName": "deactivateCatalogItemAction",
+      "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+    },
+    "401fb996a3d259d978963ea9fbbdd2aee17009d593": {
+      "workers": {
+        "app/catalog/page": {
+          "moduleId": "[project]/repos/candy-counter/candy-counter/.next-internal/server/app/catalog/page/actions.js { ACTIONS_MODULE0 => \"[project]/repos/candy-counter/candy-counter/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "activateCatalogItemAction",
+          "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/catalog/page": "action-browser"
+      },
+      "exportedName": "activateCatalogItemAction",
+      "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+    },
+    "6012bac9a2901dc4d1616baeacb273d60c444e8603": {
+      "workers": {
+        "app/catalog/page": {
+          "moduleId": "[project]/repos/candy-counter/candy-counter/.next-internal/server/app/catalog/page/actions.js { ACTIONS_MODULE0 => \"[project]/repos/candy-counter/candy-counter/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "mergeCatalogItemsAction",
+          "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/catalog/page": "action-browser"
+      },
+      "exportedName": "mergeCatalogItemsAction",
+      "filename": "repos/candy-counter/candy-counter/app/actions.ts"
+    }
+  },
+  "edge": {}
+}

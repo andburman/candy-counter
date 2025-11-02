@@ -1,0 +1,13 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_global-error/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__c8150f00._.js")
+R.c("server/chunks/ssr/repos_candy-counter_candy-counter_0ed313fa._.js")
+R.c("server/chunks/ssr/e7047_next_dist_03b08a56._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__b2806978._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__d800d8ec._.js")
+R.c("server/chunks/ssr/e7047_next_dist_compiled_446226a2._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1ea0d0df._.js")
+R.c("server/chunks/ssr/e7047_next_dist_ff763164._.js")
+R.c("server/chunks/ssr/repos_candy-counter_candy-counter_app_46e57dab._.js")
+R.c("server/chunks/ssr/09dee_candy-counter__next-internal_server_app__global-error_page_actions_dcb28784.js")
+R.m(15466)
+module.exports=R.m(15466).exports
