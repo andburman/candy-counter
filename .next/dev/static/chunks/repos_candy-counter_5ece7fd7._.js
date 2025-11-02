@@ -916,7 +916,8 @@ function CandyChart({ candies }) {
     // Memoize tooltip formatter to avoid recreating on every render
     // Enhanced tooltip with color indicator
     const tooltipContent = __TURBOPACK__imported__module__$5b$project$5d2f$repos$2f$candy$2d$counter$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"]({
-        "CandyChart.useCallback[tooltipContent]": ({ active, payload })=>{
+        "CandyChart.useCallback[tooltipContent]": (props)=>{
+            const { active, payload } = props;
             if (!active || !payload?.[0]) return null;
             const data = payload[0].payload;
             const barColor = payload[0].fill || chartColors[0];
@@ -931,7 +932,7 @@ function CandyChart({ candies }) {
                             children: data.name
                         }, void 0, false, {
                             fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                            lineNumber: 86,
+                            lineNumber: 94,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$repos$2f$candy$2d$counter$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -942,18 +943,18 @@ function CandyChart({ candies }) {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                            lineNumber: 87,
+                            lineNumber: 95,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                    lineNumber: 85,
+                    lineNumber: 93,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                lineNumber: 84,
+                lineNumber: 92,
                 columnNumber: 9
             }, this);
         }
@@ -978,7 +979,7 @@ function CandyChart({ candies }) {
                             children: CARD_TITLE
                         }, void 0, false, {
                             fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                            lineNumber: 111,
+                            lineNumber: 119,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$repos$2f$candy$2d$counter$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$repos$2f$candy$2d$counter$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardDescription"], {
@@ -986,13 +987,13 @@ function CandyChart({ candies }) {
                             children: CARD_DESCRIPTION
                         }, void 0, false, {
                             fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                            lineNumber: 112,
+                            lineNumber: 120,
                             columnNumber: 9
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                    lineNumber: 110,
+                    lineNumber: 118,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$repos$2f$candy$2d$counter$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$repos$2f$candy$2d$counter$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1004,31 +1005,31 @@ function CandyChart({ candies }) {
                                 className: "h-12 w-12 opacity-50"
                             }, void 0, false, {
                                 fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                                lineNumber: 116,
+                                lineNumber: 124,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$repos$2f$candy$2d$counter$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: EMPTY_STATE_MESSAGE
                             }, void 0, false, {
                                 fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                                lineNumber: 117,
+                                lineNumber: 125,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                        lineNumber: 115,
+                        lineNumber: 123,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                    lineNumber: 114,
+                    lineNumber: 122,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-            lineNumber: 109,
+            lineNumber: 117,
             columnNumber: 7
         }, this);
     }
@@ -1043,7 +1044,7 @@ function CandyChart({ candies }) {
                         children: CARD_TITLE
                     }, void 0, false, {
                         fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                        lineNumber: 127,
+                        lineNumber: 135,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$repos$2f$candy$2d$counter$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$repos$2f$candy$2d$counter$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardDescription"], {
@@ -1051,13 +1052,13 @@ function CandyChart({ candies }) {
                         children: CARD_DESCRIPTION
                     }, void 0, false, {
                         fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                        lineNumber: 128,
+                        lineNumber: 136,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                lineNumber: 126,
+                lineNumber: 134,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$repos$2f$candy$2d$counter$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$repos$2f$candy$2d$counter$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1077,7 +1078,7 @@ function CandyChart({ candies }) {
                                 vertical: false
                             }, void 0, false, {
                                 fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                                lineNumber: 136,
+                                lineNumber: 144,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$repos$2f$candy$2d$counter$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$repos$2f$candy$2d$counter$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$XAxis$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["XAxis"], {
@@ -1094,7 +1095,7 @@ function CandyChart({ candies }) {
                                 tickFormatter: tickFormatter
                             }, void 0, false, {
                                 fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                                lineNumber: 137,
+                                lineNumber: 145,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$repos$2f$candy$2d$counter$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$repos$2f$candy$2d$counter$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$YAxis$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["YAxis"], {
@@ -1105,14 +1106,14 @@ function CandyChart({ candies }) {
                                 axisLine: false
                             }, void 0, false, {
                                 fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                                lineNumber: 148,
+                                lineNumber: 156,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$repos$2f$candy$2d$counter$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$repos$2f$candy$2d$counter$2f$components$2f$ui$2f$chart$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ChartTooltip"], {
                                 content: tooltipContent
                             }, void 0, false, {
                                 fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                                lineNumber: 153,
+                                lineNumber: 161,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$repos$2f$candy$2d$counter$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$repos$2f$candy$2d$counter$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$Bar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Bar"], {
@@ -1128,34 +1129,34 @@ function CandyChart({ candies }) {
                                         fill: chartColors[index % chartColors.length]
                                     }, `cell-${index}`, false, {
                                         fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                                        lineNumber: 160,
+                                        lineNumber: 168,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                                lineNumber: 154,
+                                lineNumber: 162,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                        lineNumber: 132,
+                        lineNumber: 140,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                    lineNumber: 131,
+                    lineNumber: 139,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-                lineNumber: 130,
+                lineNumber: 138,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/repos/candy-counter/components/candy-chart.tsx",
-        lineNumber: 125,
+        lineNumber: 133,
         columnNumber: 5
     }, this);
 }

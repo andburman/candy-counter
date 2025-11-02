@@ -76,7 +76,15 @@ export function CandyChart({ candies }: CandyChartProps) {
   // Memoize tooltip formatter to avoid recreating on every render
   // Enhanced tooltip with color indicator
   const tooltipContent = React.useCallback(
-    ({ active, payload }: Parameters<NonNullable<React.ComponentProps<typeof ChartTooltip>["content"]>>[0]) => {
+    (props: {
+      active?: boolean;
+      payload?: Array<{
+        value?: number;
+        fill?: string;
+        payload?: ChartDataPoint;
+      }>;
+    }) => {
+      const { active, payload } = props;
       if (!active || !payload?.[0]) return null;
       const data = payload[0].payload as ChartDataPoint;
       const barColor = payload[0].fill || chartColors[0];
